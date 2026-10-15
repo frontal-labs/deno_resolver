@@ -26,7 +26,11 @@ repository = "https://github.com/denoland/deno"
 
 [lib]
 name = "deno_resolver"
-path = "lib.rs"
+path = "src/lib.rs"
+
+[[test]]
+name = "public_api"
+path = "tests/public_api.rs"
 
 [dependencies.anyhow]
 version = "1.0.57"
