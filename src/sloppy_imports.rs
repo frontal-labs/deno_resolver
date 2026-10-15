@@ -233,8 +233,8 @@ impl<Fs: SloppyImportResolverFs> SloppyImportsResolver<Fs> {
             | MediaType::Json
             | MediaType::Wasm
             | MediaType::Css
-	                | MediaType::Html
-	                | MediaType::Sql
+            | MediaType::Html
+            | MediaType::Sql
             | MediaType::SourceMap => {
               return None;
             }
