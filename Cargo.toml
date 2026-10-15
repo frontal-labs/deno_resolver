@@ -67,7 +67,7 @@ version = "=0.2.1"
 version = "=0.6.1"
 
 [dependencies.node_resolver]
-version = "0.21.0"
+version = "0.97.0"
 features = ["sync"]
 
 [dependencies.thiserror]
